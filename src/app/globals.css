@@ -33,6 +33,8 @@ body {
     rgba(34, 34, 38, 1) 0%,
     rgba(32, 32, 40, 1) 100%
   );
+  min-width: 800px;
+  min-height: 800px;
   width: 97vw;
   height: 95vh;
 }
