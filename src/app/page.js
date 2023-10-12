@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Clock } from "@/components/Clock";
 import Nav from "@/components/Nav";
+import GearSetting from "@/components/GearSetting";
 
 export default function Home() {
   return (
@@ -42,7 +43,15 @@ export default function Home() {
               <span className="font-bold text-4xl">76</span>
               <span>km/h</span>
             </div>
-            <div className="h-48 w-full">car image</div>
+            <div className="h-48 w-full flex items-center justify-center">
+              <Image
+                src="/images/white-suv.webp"
+                width={220}
+                height={220}
+                alt="Battery Icon"
+                loading="lazy"
+              />
+            </div>
             <div className="w-full bg-[#27272D] border-[1.4px] border-[#3E3E58] rounded-2xl flex flex-col overflow-hidden">
               <div className="flex justify-end self-end w-52 bg-[#3E8AFC] rounded-2xl px-2 py-1">
                 <Image
@@ -84,11 +93,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-[#27272D] border-[1.4px] border-[#3E3E58] rounded-2xl p-4 mt-2 flex justify-around w-full text-4xl">
-              <span>P</span>
-              <span>N</span>
-              <span>D</span>
-              <span>R</span>
+            <div className="bg-[#27272D] border-[1.4px] border-[#3E3E58] rounded-2xl mt-2 flex justify-around w-full text-4xl ">
+              <GearSetting />
             </div>
           </div>
           <div className="col-span-2 row-span-2 rounded-xl map">map</div>
