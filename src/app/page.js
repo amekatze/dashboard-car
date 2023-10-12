@@ -4,7 +4,7 @@ import Nav from "@/components/Nav";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
+    <main className="m-2">
       <div className="dashboard rounded-3xl flex flex-col justify-between p-5">
         <div className="w-full h-16 flex justify-between">
           <div className="flex flex-col">
