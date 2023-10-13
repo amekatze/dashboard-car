@@ -97,7 +97,21 @@ export default function Home() {
               <GearSetting />
             </div>
           </div>
-          <div className="col-span-2 row-span-2 rounded-xl map">map</div>
+          <div className="col-span-2 row-span-2 rounded-xl map">
+            <div className="flex flex-col justify-center items-center gap-3 ml-10 mt-10 p-3 w-fit h-fit bg-[#3E8AFC] rounded-xl navigator">
+              <div className="flex h-10 justify-center gap-4 items-center ">
+                <Image
+                  src="/icons/ArrowElbowUpRight.svg"
+                  width={50}
+                  height={50}
+                  alt="Battery Icon"
+                  loading="lazy"
+                />
+                <span className="text-2xl font-bold">900 m</span>
+              </div>
+              <div className="text-sm">Turn Right To Brusselstreet</div>
+            </div>
+          </div>
           <div className="col-span-1 row-span-2 bg-[#2B2B35] rounded-xl media">
             media
           </div>
