@@ -3,6 +3,7 @@ import { Clock } from "@/components/Clock";
 import Nav from "@/components/Nav";
 import GearSetting from "@/components/GearSetting";
 import Weather from "@/components/Weather";
+import Media from "@/components/Media";
 
 export default function Home() {
   return (
@@ -114,9 +115,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="col-span-1 row-span-2 bg-[#2B2B35] rounded-xl media">
-            media
-          </div>
+          <Media />
           <Weather />
         </div>
         <div className="flex w-full pt-4 h-26 items-center justify-center">
