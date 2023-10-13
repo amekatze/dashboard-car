@@ -115,8 +115,21 @@ export default function Home() {
           <div className="col-span-1 row-span-2 bg-[#2B2B35] rounded-xl media">
             media
           </div>
-          <div className="col-span-1 row-span-2 rounded-xl weather">
-            weather
+          <div className="col-span-1 row-span-2 rounded-xl weather p-8 flex flex-col justify-between">
+            <div>
+              <div className="font-bold text-2xl flex gap-2">
+                24°C
+                <Image
+                  src="/icons/Sun_clouds.svg"
+                  width={28}
+                  height={28}
+                  alt="Battery Icon"
+                  loading="lazy"
+                />
+              </div>
+              <div className="text-sm">Sunny with clouds</div>
+            </div>
+            <div className="text-sm">Humidity 86%</div>
           </div>
         </div>
         <div className="flex w-full pt-4 h-26 items-center justify-center">
