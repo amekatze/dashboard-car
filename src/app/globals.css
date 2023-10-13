@@ -21,9 +21,11 @@ body {
   background: rgb(181, 188, 200);
   background: linear-gradient(
     184deg,
-    rgba(181, 188, 200, 1) 0%,
-    rgba(96, 108, 120, 1) 100%
+    rgba(96, 108, 120, 1) 100% rgba(181, 188, 200, 1) 0%
   );
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dashboard {

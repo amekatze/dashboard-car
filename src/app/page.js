@@ -7,7 +7,7 @@ import Media from "@/components/Media";
 
 export default function Home() {
   return (
-    <main className="m-2">
+    <main className="m-2 h-full w-full">
       <div className="dashboard rounded-3xl flex flex-col justify-between p-5">
         <div className="w-full h-16 flex justify-between">
           <div className="flex flex-col">
